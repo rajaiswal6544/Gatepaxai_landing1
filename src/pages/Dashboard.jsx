@@ -8,7 +8,7 @@ function Dashboard() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true)
 
   return (
-    <div className="flex h-screen bg-white overflow-hidden">
+    <div className="flex h-screen bg-white overflow-auto">
       {/* Mobile sidebar toggle */}
       <div className="lg:hidden fixed top-4 left-4">
         <button onClick={() => setIsSidebarOpen(!isSidebarOpen)} className="p-2 rounded-md bg-white shadow-md">
@@ -46,7 +46,7 @@ function Dashboard() {
           </div>
         </header>
 
-        <div className="flex-1 overflow-hidden">
+        <div className="flex-1 overflow-auto">
           <div className="flex justify-between items-center px-6 py-6">
             {/* Page Title */}
             <h1 className="text-[#006FB9] text-[24px] font-roboto text-2xl font-bold">Add Integrations</h1>
