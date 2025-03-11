@@ -27,7 +27,7 @@ function Dashboard() {
       )}
 
       {/* Main content */}
-      <div className="flex-1 flex flex-col w-full">
+      <div className="flex-1 flex flex-col w-full max-w-[1440px] mx-auto">
         {/* Header */}
         <header className="h-16 flex items-center justify-end px-6">
           <div className="flex items-center space-x-4">

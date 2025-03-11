@@ -30,7 +30,7 @@ theme: "light",
   }
 
   return (
-    <div className="border border-[#424242] rounded-[16px] p-4 flex flex-col shadow-sm">
+    <div className="border border-[#424242] rounded-[16px] p-4 md:p-5 lg:p-6 flex flex-col shadow-sm w-auto max-w-[340px] md:max-w-[500px] lg:max-w-fit">
       {/* Toast Notification */}
       
 
